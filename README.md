@@ -2,7 +2,7 @@
 
 Label: 7.5cm height
 
-Print file: SVG, black + white ink on transparent: http://ktang.love/logo-print.svg 
+Print file: SVG, black + white ink on transparent: http://ktang.love/label.svg 
 
 (show with label shape: http://ktang.love/label-shape.svg)
 
