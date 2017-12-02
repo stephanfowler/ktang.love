@@ -1,2 +1,1 @@
-# ktang.love
-Kimchi Ketchup
+# http://ktang.love/
