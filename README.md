@@ -1,9 +1,8 @@
-# ktang.love
-Kimchi Ketchup
+# K Tang 
 
 Label: 7.5cm height
 
-Print SVG: http://ktang.love/logo-print.svg 
+Print SVG (black + white ink, on transparent): http://ktang.love/logo-print.svg 
 
 (show with label shape: http://ktang.love/label-shape.svg)
 
