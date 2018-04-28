@@ -10,18 +10,16 @@
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
   <style>
        body {
-         text-align:center; 
-         margin:0;
+         text-align: center; 
+         margin: 0;
          font-family: 'Special Elite', cursive;
-         font-size: 36px;
-         line-height: 60px;
          background: #FF8200;
        }
        h1 {
          margin: 0px 10px 10px 10px;
          font-size: 34px;
-         font-weight: normal;
          line-height: 32px;
+         font-weight: normal;
        }
        a {
          color: #fff;
@@ -30,22 +28,46 @@
        a:hover {
          text-decoration: underline;
        }
+       a:after {
+         content: '<';
+         opacity: 0.5;   
+         margin: 0 0 0 2px;
+       }
+       a:before {
+         content: '>';
+         opacity: 0.5;
+         margin: 0 2px 0 0;
+       }
+       .instagram_title {
+         font-size: 34px;
+         line-height: 32px;
+       }
        .instagram-media {
          width: 90% !important;
          max-width: 350px !important;
          margin: 20px auto !important;
          display: block !important;
        }
+       .area {
+         font-size: 32px;
+         line-height: 32px;
+         margin: 20px 0 0 0;
+       }
+       .shop {
+         font-size: 24px;
+         line-height: 28px;
+         display: block;
+       }
   </style>
 </head>
 <body>
-  <img src="logo.svg?v6" style=" width: 180px; margin-top: 15px;">
+  <img src="logo.svg?v6" style=" width: 180px; margin: 20px;">
 
   <h1 style="color: #fff;">kimchi ketchup</h1>
   
   <img src="FRONT.png?v5" style="width: 90%; max-width: 320px; margin: 10px 0;">
   
-  <div style="">
+  <div style="margin: 10px 0;">
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin: 0; padding:0">
       <input name="cmd" type="hidden" value="_s-xclick"> <input name="hosted_button_id" type="hidden" value="MKJL9M45TK7VS"> <input alt="Order K Tang" name="submit" src="/button-order.svg?v5" style="outline: none; cursor: pointer;" type="image"> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1">
     </form>
@@ -55,22 +77,35 @@
      I want K Tang!</a-->
   
   <div style="text-align:center; padding: 10px 0">
-    <div style=" font-size: 18px; line-height: 22px;">
-      London stockists
+    <div style="font-size: 18px; line-height: 22px;">
+      London stockists:
     </div>
-    <a href="https://www.google.co.uk/maps/place/Guzzl/@51.4623155,-0.1120771,15z/data=!4m5!3m4!1s0x0:0xdd3487c0e5c6eec8!8m2!3d51.4623155!4d-0.1120771">
-      Guzzl</a> Brixton<br>
-    <a href="https://www.google.co.uk/maps/place/Eat+17/@51.5669024,-0.0457877,14z/data=!4m8!1m2!2m1!1seat17!3m4!1s0x48761d03cffc83df:0xc5d182b4abe04f69!8m2!3d51.5512556!4d-0.0434518">
-      Eat 17</a> Hackney<br>
-    <a href="https://goo.gl/maps/X3Tpj7814J72">
-      Harvest</a> Hackney<br>
+
+    <div class="area">Brixton</div>
+    <a class="shop" href="https://goo.gl/maps/rchpAmFLMsR2">Guzzl</a>
+
+    <div class="area">Crofton Park</div>
+    <a class="shop"  href="https://goo.gl/maps/ZkTxWjny8Bn">Proud Sow</a>
+
+    <div class="area">East Dulwich</div>
+    <a class="shop"  href="https://goo.gl/maps/wHFRZPBiq5Q2">Hop Burns &amp; Black</a>
+    <a class="shop"  href="https://goo.gl/maps/aDXwktSfYNq">Franklins Farm Shop</a>
+
+    <div class="area">Hampstead</div>
+    <a class="shop"  href="https://goo.gl/maps/YQPZ4mbGkVz">Hampstead Butcher</a>
+
+    <div class="area">Homerton</div>
+    <a class="shop"  href="https://goo.gl/maps/aJSVV31mx892">Eat 17</a>
+
+    <div class="area">Stoke Newington</div>
+    <a class="shop" href="https://goo.gl/maps/siTqDgd4uCT2">Harvest 16</a>
+
   </div>
   
-  <img src="logo.svg?v5" style=" width: 70px; margin: 10px 0 0 0;">
+  <img src="logo.svg?v5" style=" width: 70px; margin: 20px 0 0 0;">
   
   <div style=" font-size: 18px; line-height: 20px; margin: 0 auto 20px auto; width: 320px;">
-    <span style="color: #fff">kimchi ketchup</span><br>
-    <br>
+    <div style="color: #fff; margin: 0 0 5px 0;">kimchi ketchup</div>
     A tangy sauce for brunch, eggs, avocado, cheese, fries, burgers, and everything else you used to put ketchup on before you discovered K&nbsp;Tang<br>
     <br>
     Vegan / Gluten free<br>
@@ -87,7 +122,7 @@
   
   <div>
     <img src="instagram.png" style=" width: 32px; display: inline-block; margin: 0 0 -5px 0;">
-    <a href="https://www.instagram.com/ktanglove/">ktanglove</a>
+    <a class="instagram_title" href="https://www.instagram.com/ktanglove/">instatang</a>
     <img src="instagram.png" style=" width: 32px; display: inline-block; margin: 0 0 -5px 0;">
   </div>
 
@@ -128,7 +163,7 @@
   </div>
   
   <div style="text-align:center; padding: 10px 0; font-size: 18px; line-height: 22px;">
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ABY6334ACS75U">order with prearranged delivery</a><br>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ABY6334ACS75U">order&nbsp;with prearranged&nbsp;delivery</a><br>
   </div>
   
   <img src="logo.svg?v5" style=" width: 70px; margin: 20px 0 40px 0;">
