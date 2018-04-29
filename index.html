@@ -13,6 +13,8 @@
          text-align: center; 
          margin: 0;
          font-family: 'Special Elite', cursive;
+         font-size: 18px;
+         line-height: 20px; 
          background: #FF8200;
        }
        h1 {
@@ -58,6 +60,14 @@
          line-height: 28px;
          display: block;
        }
+       .blink_me {
+         animation: blinker 0.25s linear infinite;
+       }
+       @keyframes blinker {
+         50% {
+           opacity: 0.25;
+         }
+       }
   </style>
 </head>
 <body>
@@ -67,17 +77,8 @@
   
   <img src="FRONT.png?v5" style="width: 90%; max-width: 320px; margin: 10px 0;">
   
-  <div style="margin: 10px 0;">
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin: 0; padding:0">
-      <input name="cmd" type="hidden" value="_s-xclick"> <input name="hosted_button_id" type="hidden" value="MKJL9M45TK7VS"> <input alt="Order K Tang" name="submit" src="/button-order.svg?v5" style="outline: none; cursor: pointer;" type="image"> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1">
-    </form>
-  </div>
-  
-  <!--a href="https://docs.google.com/forms/d/e/1FAIpQLSeNq4Zf_wcD72ond0LsSSsaLw3dY4lkWVnKV4wSgcAeo3Y4pg/viewform?usp=sf_link">
-     I want K Tang!</a-->
-  
   <div style="text-align:center; padding: 10px 0">
-    <div style="font-size: 18px; line-height: 22px;">
+    <div>
       London stockists:
     </div>
 
@@ -100,24 +101,32 @@
     <div class="area">Stoke Newington</div>
     <a class="shop" href="https://goo.gl/maps/siTqDgd4uCT2">Harvest 16</a>
 
+  <div style="margin: 20px 0;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin: 0; padding:0">
+      <input name="cmd" type="hidden" value="_s-xclick"> <input name="hosted_button_id" type="hidden" value="MKJL9M45TK7VS"> <input alt="Order K Tang" name="submit" src="/button-order.svg?v5" style="outline: none; cursor: pointer;" type="image"> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1">
+    </form>
+  </div>  
+  <!--a href="https://docs.google.com/forms/d/e/1FAIpQLSeNq4Zf_wcD72ond0LsSSsaLw3dY4lkWVnKV4wSgcAeo3Y4pg/viewform?usp=sf_link">
+     I want K Tang!</a-->
+  
+    <div class="area">Contact us!</div>
+    <a class="shop" href="mailto:hello@ktang.love">hello@ktang.love</a>
+    <a class="shop" href="tel:+447958941264">07958 941 264</a>
+
   </div>
   
   <img src="logo.svg?v5" style=" width: 70px; margin: 20px 0 0 0;">
   
-  <div style=" font-size: 18px; line-height: 20px; margin: 0 auto 20px auto; width: 320px;">
+  <div style="margin: 0 auto 20px auto; width: 320px;">
     <div style="color: #fff; margin: 0 0 5px 0;">kimchi ketchup</div>
     A tangy sauce for brunch, eggs, avocado, cheese, fries, burgers, and everything else you used to put ketchup on before you discovered K&nbsp;Tang<br>
     <br>
-    Vegan / Gluten free<br>
-    Naturally fermented<br>
-    <br>
-    Made in London
-  </div>
-  
-  <div style="font-size: 26px; line-height: 36px;">
-    hello@ktang.love<br>
-    +44 79 58 94 12 64<br>
-    <br>
+    <div class="blink_me">
+      OMG it's<br />
+      Vegan!<br /> 
+      Gluten free!<br>
+      Naturally fermented!<br />
+    </div>
   </div>
   
   <div>
@@ -156,16 +165,20 @@
   <script async defer src="//www.instagram.com/embed.js">
   </script>
 
-  <div style="font-size: 26px; line-height: 36px;">
+  <div>
     <br>
-    hello@ktang.love<br>
-    +44 79 58 94 12 64<br>
+    <div class="area">Contact us!</div>
+    <a class="shop" href="mailto:hello@ktang.love">hello@ktang.love</a>
+    <a class="shop" href="tel:+447958941264">07958 941 264</a>
   </div>
   
   <div style="text-align:center; padding: 10px 0; font-size: 18px; line-height: 22px;">
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ABY6334ACS75U">order&nbsp;with prearranged&nbsp;delivery</a><br>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ABY6334ACS75U">prearranged&nbsp;delivery?</a><br>
   </div>
   
-  <img src="logo.svg?v5" style=" width: 70px; margin: 20px 0 40px 0;">
+  <img src="logo.svg?v5" style=" width: 70px; margin: 20px 0 10px 0;">
+
+  <div style="margin: 0 0 40px 0;">Made in London</div>
+
 </body>
 </html>
